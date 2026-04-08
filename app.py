@@ -61,7 +61,7 @@ def get_base64_of_bin_file(bin_file):
         return None
 
 IMAGE_PATH = "background.png"
-bin_str = get_base64_of_bin_file(img_path)
+bin_str = get_base64_of_bin_file(IMAGE_PATH)
 
 if bin_str:
     st.markdown(
