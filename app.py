@@ -68,12 +68,12 @@ if bin_str:
         f"""
         <style>
         .stApp {{
-            background-image: url("data:image/jpg;base64,{bin_str}");
+            background-image: url("data:image/jpeg;base64,{bin_str}");
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-color: #f0f2f6;
+            background-color: !important;
         }}
         /* Tajuk Utama Styling */
         .main-title {{
