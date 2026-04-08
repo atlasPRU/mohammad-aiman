@@ -60,7 +60,7 @@ def get_base64_of_bin_file(bin_file):
     except:
         return None
 
-img_path = "background.png"
+img_path = "imejpru.JPG"
 bin_str = get_base64_of_bin_file(img_path)
 
 if bin_str:
