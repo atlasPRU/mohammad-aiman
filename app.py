@@ -100,7 +100,7 @@ if semak_login():
     # --- 3. FUNGSI MUAT DATA ---
     @st.cache_data
     def muat_data_gis():
-        path = "C:/PRN2021/parlimen/parlimen_semenanjung.shp"
+        path = "parlimen_semenanjung.shp"
         gdf = gpd.read_file(path)
         geom_name = gdf.geometry.name
         gdf.columns = [x.upper() for x in gdf.columns]
