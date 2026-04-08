@@ -60,7 +60,7 @@ def get_base64_of_bin_file(bin_file):
     except:
         return None
 
-img_path = "C:/PRN2021/atlas B4 gaya moden no blur.png"
+IMAGE_PATH = "background.png"
 bin_str = get_base64_of_bin_file(img_path)
 
 if bin_str:
