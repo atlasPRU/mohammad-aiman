@@ -60,8 +60,8 @@ def get_base64_of_bin_file(bin_file):
     except:
         return None
 
-IMAGE_PATH = "background.png"
-bin_str = get_base64_of_bin_file(IMAGE_PATH)
+img_path = "background.png"
+bin_str = get_base64_of_bin_file(img_path)
 
 if bin_str:
     st.markdown(
