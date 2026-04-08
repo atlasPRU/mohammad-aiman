@@ -68,7 +68,7 @@ if bin_str:
         f"""
         <style>
         .stApp {{
-            background-image: url("data:image/png;base64,{bin_str}");
+            background-image: url("data:image/jpg;base64,{bin_str}");
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
